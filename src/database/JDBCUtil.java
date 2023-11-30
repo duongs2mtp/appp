@@ -32,7 +32,6 @@ public class JDBCUtil {
 				c.close();
 			}
 		} catch (Exception e) {
-			// TODO: handle exception
 			e.printStackTrace();
 		}
 	}
