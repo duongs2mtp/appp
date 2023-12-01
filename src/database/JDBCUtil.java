@@ -13,7 +13,7 @@ public class JDBCUtil {
 		Connection c = null;
 		try {
 			// Dang ky MySQL Driver voi DriverManager
-			DriverManager.registerDriver(new com.mysql.jdbc.Driver());
+			DriverManager.registerDriver(new com.mysql.cj.jdbc.Driver());
 			//Cac thong so
 			String url = "jdbc:mySQL://localhost:3306/quanlinongsan";
 			String userName = "root";
